@@ -1,0 +1,48 @@
+  .pagination-btn {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: rgb(16, 15, 15);
+    font-size: 1rem;
+    min-width: 40px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .pagination-btn:hover {
+    background: #007bff;
+    color: white;
+  }
+  
+  .active-page {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .pagination-container {
+      gap: 5px; /* Reduce gap on small screens */
+    }
+  
+    .pagination-btn {
+      font-size: 0.9rem; /* Reduce font size */
+      padding: 6px 10px; /* Adjust padding */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .pagination-container {
+      gap: 3px;
+    }
+  
+    .pagination-btn {
+      font-size: 0.8rem;
+      padding: 5px 8px;
+      min-width: 35px;
+    }
+  }
+  

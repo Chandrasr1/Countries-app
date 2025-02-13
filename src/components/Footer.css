@@ -1,0 +1,45 @@
+.footer-container {
+    background: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .social-icons i {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: #333;
+  }
+  
+  .footer-text {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 15px;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  
+    .footer-text {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .social-icons i {
+      font-size: 1.2rem;
+    }
+  
+    .footer-text {
+      font-size: 0.9rem;
+    }
+  }
+  
